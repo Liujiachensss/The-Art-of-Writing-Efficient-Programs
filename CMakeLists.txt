@@ -8,10 +8,10 @@ include_directories(${CMAKE_HOME_DIRECTORY}/helper)
 
 # set(LIB_HOME )
 if(NOT CMAKE_C_COMPILER)
-    set(CMAKE_C_COMPILER /root/miniconda3/envs/opc/bin/gcc)
+    set(CMAKE_C_COMPILER /usr/bin/gcc)
 endif()
 if(NOT CMAKE_CXX_COMPILER)
-    set(CMAKE_CXX_COMPILER /root/miniconda3/envs/opc/bin/g++)
+    set(CMAKE_CXX_COMPILER /usr/bin/g++)
 endif()
 
 # set(CPACK_PROJECT_NAME ${PROJECT_NAME})
@@ -49,3 +49,4 @@ set(Benchmark_INCLUDE_DIR /home/usr/software/benchmark/include)
 include_directories(${Benchmark_INCLUDE_DIR})
 
 add_subdirectory(Chapter02)
+add_subdirectory(Chapter03)

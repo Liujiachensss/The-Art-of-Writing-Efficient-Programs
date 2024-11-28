@@ -646,27 +646,27 @@ void BM_branchless_code(benchmark::State& state) {
 #define ARGS \
     ->Arg(1<<22)
 
-//BENCHMARK(BM_add_multiply) ARGS;
-//BENCHMARK(BM_branch_cmove) ARGS;
-//BENCHMARK(BM_branch_predicted) ARGS;
-//BENCHMARK(BM_branch_not_predicted) ARGS;
-//BENCHMARK(BM_branch_predict12) ARGS;
-//BENCHMARK(BM_false_branch) ARGS;
-//BENCHMARK(BM_false_branch_temp) ARGS;
-//BENCHMARK(BM_false_branch_vtemp) ARGS;
-//BENCHMARK(BM_false_branch_sum) ARGS;
-//BENCHMARK(BM_false_branch_bitwise) ARGS;
-//BENCHMARK(BM_add_multiply_unrolled) ARGS;
-//BENCHMARK(BM_branched) ARGS;
-//BENCHMARK(BM_branchless) ARGS;
-//BENCHMARK(BM_branched1) ARGS;
-//BENCHMARK(BM_branchless1) ARGS;
-//BENCHMARK(BM_branched2) ARGS;
-//BENCHMARK(BM_branched2_predicted) ARGS;
-//BENCHMARK(BM_branchless2) ARGS;
-//BENCHMARK(BM_branchless2a) ARGS;
-//BENCHMARK(BM_branched_code) ARGS;
-//BENCHMARK(BM_branchless_code) ARGS;
+BENCHMARK(BM_add_multiply) ARGS;
+BENCHMARK(BM_branch_cmove) ARGS;
+BENCHMARK(BM_branch_predicted) ARGS;
+BENCHMARK(BM_branch_not_predicted) ARGS;
+BENCHMARK(BM_branch_predict12) ARGS;
+BENCHMARK(BM_false_branch) ARGS;
+BENCHMARK(BM_false_branch_temp) ARGS;
+BENCHMARK(BM_false_branch_vtemp) ARGS;
+BENCHMARK(BM_false_branch_sum) ARGS;
+BENCHMARK(BM_false_branch_bitwise) ARGS;
+BENCHMARK(BM_add_multiply_unrolled) ARGS;
+BENCHMARK(BM_branched) ARGS;
+BENCHMARK(BM_branchless) ARGS;
+BENCHMARK(BM_branched1) ARGS;
+BENCHMARK(BM_branchless1) ARGS;
+BENCHMARK(BM_branched2) ARGS;
+BENCHMARK(BM_branched2_predicted) ARGS;
+BENCHMARK(BM_branchless2) ARGS;
+BENCHMARK(BM_branchless2a) ARGS;
+// BENCHMARK(BM_branched_code) ARGS;
+// BENCHMARK(BM_branchless_code) ARGS;
 
 BENCHMARK_MAIN();
 

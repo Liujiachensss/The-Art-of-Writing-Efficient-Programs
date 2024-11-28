@@ -1,4 +1,4 @@
-add_executable(substring_sort 01a_substring_sort.C 01a_substring_sort_a.C 01a_substring_sort_b.C 01a_substring_sort_c.C)
+add_executable(ch02-substring_sort-01 01a_substring_sort.C 01a_substring_sort_a.C 01a_substring_sort_b.C 01a_substring_sort_c.C)
 
 # int 和 unsigned 时间差不多
 add_executable(ch02-int_unsigned 05_compare_timer.C)
